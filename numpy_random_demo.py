@@ -1,0 +1,13 @@
+import numpy as np
+rng = np.random.default_rng()
+# print(rng.integers(1,31))
+# rng = np.random.default_rng(seed=None)
+# print(rng.integers(1,300,size=(2,2)))
+# print(np.random.uniform(0, 1, size=(2, 2)))
+arr = np.array(["me","unknown"])
+print(np.random.choice(arr))
+brr= np.array(["me","unknown+dhivesh","you"])
+print(np.random.choice(brr))
+crr= np.array(["rajesh","aslam","mani"])
+rng.shuffle(crr)
+print(crr)
